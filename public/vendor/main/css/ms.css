@@ -1,0 +1,148 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Andika', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body {
+    padding-top: 83px;
+    background-color: white!important;
+    color: black !important;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+
+/*
+ * Navbar
+ */
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: black !important;
+}
+
+.navbar.navbar-dark .mr-auto .nav-item .nav-link {
+    border-radius: 25rem;
+    width: 80px;
+    text-align: center;
+    color: black !important;
+}
+
+.navbar.navbar-dark .mr-auto .nav-item .nav-link:hover {
+    color: White !important;
+    background-color: #333 !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-expand-lg .ml-auto .dropdown-menu {
+    border-radius: 2px;
+    top: 42px;
+    left: 7px;
+    border-top: 2px solid #007bff;
+}
+
+.navbar-expand-lg .ml-auto .dropdown-menu a {
+    padding: 4px;
+    padding-left: 15px;
+    font-weight: 400;
+    color: #000!important;
+    transition: all .2s;
+}
+
+.navbar-expand-lg .ml-auto .dropdown-menu a:hover {
+    padding-left: 20px;
+    background-color: #007bff !important;
+    color: white !important;
+}
+
+
+/* Navbar End */
+
+
+/*
+ * Footer
+ */
+
+footer.page-footer a {
+    color: #ccc;
+    margin: 10px;
+    transition: all .4s;
+}
+
+footer.page-footer a:hover {
+    color: white;
+}
+
+
+/* Footer End */
+
+
+/*
+ * Profile Panels
+ */
+
+.nav-tabs .nav-link {
+    border: 0px solid #35407b !important;
+    margin: 10px;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #35407b !important;
+    border-color: #35407b !important;
+    border-radius: .25rem !important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #35407b !important;
+    border-color: #35407b !important;
+    border-radius: .25rem !important;
+}
+
+
+/* Profile Panels End */
+
+
+/*
+ * Cards
+ */
+
+.card {
+    background-color: white;
+}
+
+
+/* Cards End */
+
+
+/*
+ * Pagination
+ */
+
+.pagination {
+    margin-top: 25px;
+}
