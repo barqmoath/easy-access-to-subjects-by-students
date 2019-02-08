@@ -15,6 +15,9 @@ It also contains a subsystem which is an electronic bag system that enables stud
 * [eass_db-DOWNLOAD](https://ufile.io/rui0a) - Download Database
 * Create a new blank database
 * Import From the database that you downloaded to the new empty database
+* `composer install`
+* Rename The ".env.example" File to ".env"
+* `php artisan key:generate`
 * Edit ".env" File with your server info. Do not forget to modify the database name to match the name of the new database you created
 * Run The server Using Artisan Command 
 ```
